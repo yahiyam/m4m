@@ -130,9 +130,7 @@ class _HomeScreenState extends State<HomePage> {
                             : const Text('Grid View'),
                       ),
                     ),
-                    
                   ],
-
                 ),
               ],
               floating: true,
