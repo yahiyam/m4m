@@ -15,7 +15,13 @@
     <action android:name="android.intent.action.VIEW" />
     <data android:scheme="tel" />
   </intent>
+  <!-- Replace the content provider authority with a unique value -->
+  <intent>
+    <action android:name="android.intent.action.SEND" />
+    <data android:scheme="com.yahiyamuhammed.m4music.share_provider" />
+  </intent>
 </queries>
+
    <application
         android:label="m4music"
         android:usesCleartextTraffic="true"
