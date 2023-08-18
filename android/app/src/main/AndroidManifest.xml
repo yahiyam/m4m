@@ -17,7 +17,7 @@
   </intent>
 </queries>
    <application
-        android:label="M4MUSIC"
+        android:label="m4music"
         android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
